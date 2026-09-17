@@ -60,7 +60,7 @@ set(ENGINE_SOURCES
 	# src/level4_hull_white/hull_white.cpp
 
 	# Level 5: Whole-yield-curve Forward Rate Dynamics
-	# src/level5_heath_jarrow_morton/hjm.cpp
+	# src/level5_heath_jarrow_morton/heath_jarrow_morton.cpp
 
 	# Risk Engine & Sensitivities
 	# src/risk/greeks.cpp
