@@ -47,7 +47,7 @@ endif()
 set(ENGINE_SOURCES
 	# Level 1: Black-Scholes & Bachelier; Analytic Benchmarks
 	# src/level1_black_scholes_bachelier/bachelier.cpp
-	# src/level1_black_scholes_bachelier/black76.cpp
+	src/level1_black_scholes_bachelier/black76.cpp
 	# src/level1_black_scholes_bachelier/black_scholes.cpp
 
 	# Level 2: Stochastic Volatility
