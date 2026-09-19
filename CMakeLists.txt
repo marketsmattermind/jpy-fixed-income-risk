@@ -46,21 +46,21 @@ endif()
 # As we implement each pricing level, we list its active C++ files below:
 set(ENGINE_SOURCES
 	# Level 1: Black-Scholes & Bachelier; Analytic Benchmarks
-	# src/level1_black_scholes_bachelier/bachelier.cpp
-	src/level1_black_scholes_bachelier/black76.cpp
-	# src/level1_black_scholes_bachelier/black_scholes.cpp
+	# src/level1/bachelier.cpp
+	src/level1/black76.cpp
+	# src/level1/black_scholes.cpp
 
 	# Level 2: Stochastic Volatility
-	# src/level2_heston/heston_cos.cpp
+	# src/level2/heston_cos.cpp
 
 	# Level 3: Non-parametric Volatility
-	# src/level3_sabr/sabr.cpp
+	# src/level3/sabr.cpp
 
 	# Level 4: Short-rate Term Structure
-	# src/level4_hull_white/hull_white.cpp
+	# src/level4/hull_white.cpp
 
 	# Level 5: Whole-yield-curve Forward Rate Dynamics
-	# src/level5_heath_jarrow_morton/heath_jarrow_morton.cpp
+	# src/level5/heath_jarrow_morton.cpp
 
 	# Risk Engine & Sensitivities
 	# src/risk/greeks.cpp
