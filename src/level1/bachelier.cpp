@@ -1,4 +1,4 @@
-#include "analytics/level1_black_scholes_bachelier/bachelier.hpp"
+#include "analytics/level1/bachelier.hpp"
 #include <cmath>
 #include <numbers>
 

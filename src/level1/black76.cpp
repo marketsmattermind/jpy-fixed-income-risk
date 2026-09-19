@@ -1,4 +1,4 @@
-#include "analytics/level1_black_scholes_bachelier/black76.hpp"
+#include "analytics/level1/black76.hpp"
 #include <cmath>
 #include <numbers>
 
@@ -34,5 +34,5 @@ double price(
 	}
 }
 
-} // namespacec analytics::black76
+} // namespace analytics::black76
 
