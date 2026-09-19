@@ -39,5 +39,5 @@ double price(
 	}
 }
 
-} // namespacec analytics::bachelier
+} // namespace analytics::bachelier
 
