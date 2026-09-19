@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "analytics/level1_black_scholes_bachelier/black76.hpp"
+#include "analytics/level1/black76.hpp"
 
 TEST(Black76Test, EuropeanCallKnownValue) {
 	// F0 = 100, K = 100, T = 1.0, P(0,T) = 0.95, sigma = 0.20
