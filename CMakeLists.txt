@@ -46,7 +46,7 @@ endif()
 # As we implement each pricing level, we list its active C++ files below:
 set(ENGINE_SOURCES
 	# Level 1: Black-Scholes & Bachelier; Analytic Benchmarks
-	# src/level1/bachelier.cpp
+	src/level1/bachelier.cpp
 	src/level1/black76.cpp
 	# src/level1/black_scholes.cpp
 
