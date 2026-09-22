@@ -29,6 +29,6 @@ TEST(BachelierTest, NegativeRateSupportNIRP) {
 	const double parity_diff = call_price - put_price;
 	const double expected_diff = 1.0 * (-0.0010 - (-0.0005));
 
-	EXPECT_NEAR(parity_diff, expected_diff,, 1e-9);
+	EXPECT_NEAR(parity_diff, expected_diff, 1e-9);
 }
 
