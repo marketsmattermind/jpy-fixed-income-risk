@@ -5,6 +5,7 @@
 # Create the test runner executable target
 add_executable(jpy_risk_tests
 	test_version.cpp
+	level1/test_bachelier.cpp
 	level1/test_black76.cpp
 )
 
