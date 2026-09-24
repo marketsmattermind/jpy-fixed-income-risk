@@ -8,6 +8,6 @@ TEST(BlackScholesTest, EuropeanCallKnownValue) {
 	);
 
 	// Exact theoretical value is ~ 9.92506
-	EXPECT_NEAR(call_price, 9.92506, 1e-4);
+	EXPECT_NEAR(call_price, 9.92506, 1e-5);
 }
 

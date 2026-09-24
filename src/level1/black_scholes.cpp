@@ -24,6 +24,7 @@ double price(
 	}
 
 	const double std_dev = volatility * std::sqrt(time_to_maturity);
+
 	const double d1 = (std::log(spot / strike) + (risk_free_rate - dividend_yield + 0.5 * volatility * volatility) * time_to_maturity) / std_dev;
 	const double d2 = d1 - std_dev;
 
@@ -31,7 +32,7 @@ double price(
 	const double df_q = std::exp(-dividend_yield * time_to_maturity);
 
 	if (type == OptionType::Call) {
-		return spot * df_q *norm_cdf(d1) - strike * df_r * norm_cdf(d2);
+		return spot * df_q * norm_cdf(d1) - strike * df_r * norm_cdf(d2);
 	} else {
 		return strike * df_r * norm_cdf(-d2) - spot * df_q * norm_cdf(-d1);
 	}
