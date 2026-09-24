@@ -7,6 +7,7 @@ add_executable(jpy_risk_tests
 	test_version.cpp
 	level1/test_bachelier.cpp
 	level1/test_black76.cpp
+	level1/test_black_scholes.cpp
 )
 
 # Link against our core engine library, warning flags, and GoogleTest main entry point
