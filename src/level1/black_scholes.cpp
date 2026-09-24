@@ -19,7 +19,7 @@ double price(
 		double volatility,
 		OptionType type
 ) noexcept {
-	if (time_to_maturity <= 0.0 || volatility <= 0.0 || spot <= 0.0 || stirke <= 0.0) {
+	if (time_to_maturity <= 0.0 || volatility <= 0.0 || spot <= 0.0 || strike <= 0.0) {
 		return 0.0;
 	}
 
