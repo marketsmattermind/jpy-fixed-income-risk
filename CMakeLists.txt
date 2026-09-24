@@ -48,7 +48,7 @@ set(ENGINE_SOURCES
 	# Level 1: Black-Scholes & Bachelier; Analytic Benchmarks
 	src/level1/bachelier.cpp
 	src/level1/black76.cpp
-	# src/level1/black_scholes.cpp
+	src/level1/black_scholes.cpp
 
 	# Level 2: Stochastic Volatility
 	# src/level2/heston_cos.cpp
