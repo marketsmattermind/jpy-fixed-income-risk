@@ -15,7 +15,7 @@ namespace analytics::bachelier {
 		}
 	}  // namespace
 
-double price(
+[[nodiscard]] double price(
 	double forward,
 	double strike,
 	double time_to_maturity,
